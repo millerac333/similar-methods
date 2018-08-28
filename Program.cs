@@ -19,10 +19,6 @@ namespace Expression_members
 
             Console.WriteLine();
             Console.WriteLine($"{mantis.FormalName} feeds on {mantis.PreyList()} and is the prey of {mantis.PredatorsList()}");
-            // Console.WriteLine("feeds on...");
-            // Console.WriteLine(mantis.PreyList());
-            // Console.Write("and is the prey of...");
-            // Console.WriteLine(mantis.PredatorsList());
 
             Console.WriteLine();
             Console.WriteLine(mantis.Eat("Pikachu"));
