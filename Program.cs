@@ -13,7 +13,7 @@ namespace Expression_members
 
             Bug butterfly = new Bug("Monarch", "Danaus plexippus", new List<string>() { "Praying Mantis mantus", "birds" }, new List<string>() { "liquids", "flower nectar" });
 
-            Bug mantis = new Bug("'Praying' European Mantis", "Mantis religiosa", new List<string>() { "Praying Mantis mantis", "birds" }, new List<string>() { "Praying Mantis", spider.Name, hornet.Name, butterfly.Name });
+            Bug mantis = new Bug("'Praying' European Mantis", "Mantis religiosa", new List<string>() { "Praying Mantis", "birds" }, new List<string>() { "Praying Mantis", spider.Name, hornet.Name, butterfly.Name });
 
             Console.WriteLine(spider.FormalName);
 
