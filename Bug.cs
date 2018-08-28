@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace expression_members
+namespace Expression_members
 {
     public class Bug
     {
@@ -24,6 +24,7 @@ namespace expression_members
                 return $"{this.Name} the {this.Species}";
             }
         }
+        public List<Bug> BugsList = new List<Bug>();
 
         // Class constructor
         public Bug(string name, string species, List<string> predators, List<string> prey)
@@ -35,10 +36,10 @@ namespace expression_members
         }
 
         // Convert this method to an expression member 
-        public string PreyList() => String.Join(",", Prey);
+        public string PreyList() => String.Join(", ", Prey);
 
         // Convert this method to an expression member
-        public string PredatorsList() => String.Join(",", Predators);
+        public string PredatorsList() => String.Join(", ", Predators);
 
         // Convert this to expression method (hint: use a C# ternary)
         public string Eat(string food)
