@@ -7,11 +7,11 @@ namespace Expression_members
     {
         static void Main(string[] args)
         {
-            Bug spider = new Bug("Black Widow Spider", "Latrodectus hersperus", new List<string>() { "Praying Mantis mantus", "birds" }, new List<string>() { "grasshopper", "fly" });
+            Bug spider = new Bug("Black Widow Spider", "Latrodectus hersperus", new List<string>() { "Praying Mantis", "birds" }, new List<string>() { "grasshopper", "fly" });
 
             Bug hornet = new Bug("European Hornet", "Vespa crabro", new List<string>() { "Praying Mantis", "Dragonfly" }, new List<string>() { "grasshopper", "yellow jacket" });
 
-            Bug butterfly = new Bug("Monarch", "Danaus plexippus", new List<string>() { "Praying Mantis mantus", "birds" }, new List<string>() { "liquids", "flower nectar" });
+            Bug butterfly = new Bug("Monarch", "Danaus plexippus", new List<string>() { "Praying Mantis", "birds" }, new List<string>() { "liquids", "flower nectar" });
 
             Bug mantis = new Bug("'Praying' European Mantis", "Mantis religiosa", new List<string>() { "Praying Mantis", "birds" }, new List<string>() { "Praying Mantis", spider.Name, hornet.Name, butterfly.Name });
 
